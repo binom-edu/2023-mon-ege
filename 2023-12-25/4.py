@@ -1,0 +1,12 @@
+a = [1, 2, 3]
+a.append(5)
+print(a)
+a.insert(1, 7)
+print(a)
+b = a.pop()
+print(a)
+print(b)
+a.pop(1)
+print(a)
+a.remove(2)
+print(a)
